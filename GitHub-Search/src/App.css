@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+ font-family: "Josefin Sans", sans-serif;
+}
+
+#logo-git {
+    width: 3vw;
+    height: auto;
+}
+.Bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border: 0px;
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 0.1rem;
+    font-size: 1vw;
+}
+button:hover {
+    background-color: black;
+}
+input {
+    text-align: center;
+    border-radius: 1rem;
+    border: 0.21rem solid rgba(0,0,0,0.2);
+    width: 50%;
+}
+button {
+    width: 10%;
+    margin-left: 0.8rem;
+}
+.User-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.User-info img {
+    border-radius: 50%;
+    width: 30%;
+}
+.App {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    border: 1px solid darkmagenta;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    font-size: 0.89vw;
+}
+body {
+    background-color: darkmagenta;
+}
+input {
+    border: 1px solid darkmagenta;
+    color: darkmagenta;
+    font-size: 1vw;
+}
+hr {
+    width: 100%;
+    color: rgba(0,0,0,0.2)
+}
+#starforks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color:  darkmagenta;;
+}
+#bio {
+    color:  darkmagenta;;
+}
+#follows {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+#name {
+    font-size: 3vw;
+}
+.repos {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 70%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+#reponame {
+    color: black;
+    font-size: 1.42vw;
+}
